@@ -1,0 +1,10 @@
+dc22_badge_human.spin
+jm_i2c.spin
+jm_24xx512.spin
+jm_sircs_rx.spin
+jm_sircs_tx.spin
+jm_prng.spin
+jm_pwm8.spin
+cryptofullduplexserial64.spin
+jm_eztimer.spin
+>compiler=SPIN
