@@ -4,272 +4,271 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-ACK	/home/eswanson/Programming/dc22-badge/badge/jm_i2c.spin	/^#0, ACK, NAK$/
-EE_SCL	/home/eswanson/Programming/dc22-badge/badge/jm_i2c.spin	/^EE_SCL = 28$/
-EE_SDA	/home/eswanson/Programming/dc22-badge/badge/jm_i2c.spin	/^EE_SDA = 29$/
-NAK	/home/eswanson/Programming/dc22-badge/badge/jm_i2c.spin	/^#0, ACK, NAK$/
-RX1	/home/eswanson/Programming/dc22-badge/badge/jm_i2c.spin	/^RX1    = 31$/
-TX1	/home/eswanson/Programming/dc22-badge/badge/jm_i2c.spin	/^TX1    = 30$/
-i2c	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^i2c : "jm_i2c"$/
-present	/home/eswanson/Programming/dc22-badge/badge/jm_i2c.spin	/^pub present(ctrl)$/
-read	/home/eswanson/Programming/dc22-badge/badge/jm_i2c.spin	/^pub read(ackbit) | i2cbyte$/
-scl	/home/eswanson/Programming/dc22-badge/badge/jm_i2c.spin	/^long  scl$/
-sda	/home/eswanson/Programming/dc22-badge/badge/jm_i2c.spin	/^long  sda$/
-setup	/home/eswanson/Programming/dc22-badge/badge/jm_i2c.spin	/^pub setup$/
-setupx	/home/eswanson/Programming/dc22-badge/badge/jm_i2c.spin	/^pub setupx(sclpin, sdapin)$/
-start	/home/eswanson/Programming/dc22-badge/badge/jm_i2c.spin	/^pub start$/
-stop	/home/eswanson/Programming/dc22-badge/badge/jm_i2c.spin	/^pub stop$/
-wait	/home/eswanson/Programming/dc22-badge/badge/jm_i2c.spin	/^pub wait(ctrl) | ackbit$/
-write	/home/eswanson/Programming/dc22-badge/badge/jm_i2c.spin	/^pub write(i2cbyte) | ackbit$/
-ACK	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^ACK      = i2c#ACK$/
-EE_READ	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^EE_READ  = %1010_000_1$/
-EE_SCL	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^EE_SCL  = 28$/
-EE_SDA	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^EE_SDA  = 29$/
-EE_WRITE	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^EE_WRITE = %1010_000_0$/
-NAK	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^NAK      = i2c#NAK$/
-PG_SIZE	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^PG_SIZE  = 128$/
-RX1	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^RX1     = 31$/
-TX1	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^TX1     = 30$/
-copy_from	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^pub copy_from(addr, n, p_dest)$/
-copy_to	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^pub copy_to(addr, n, p_src)$/
-devid	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^long  devid$/
-ee	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^ee   : "jm_24xx512"$/
-fill	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^pub fill(addr, n, b) | ackbit$/
-page_num	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^pub page_num(addr)$/
-page_ok	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^pub page_ok(addr, len) | pg0, pg1$/
-rd_block	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^pub rd_block(addr, n, p_dest)$/
-rd_byte	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^pub rd_byte(addr) | b$/
-rd_long	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^pub rd_long(addr) | l$/
-rd_str	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^pub rd_str(addr, p_dest) | b$/
-rd_word	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^pub rd_word(addr) | w$/
-scl	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^long  scl$/
-sda	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^long  sda$/
-start	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^pub start(device)$/
-startx	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^pub startx(sclpin, sdapin, device)$/
-wait	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^pub wait$/
-wr_block	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^pub wr_block(addr, n, p_src) | ackbit$/
-wr_byte	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^pub wr_byte(addr, b)$/
-wr_long	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^pub wr_long(addr, l)$/
-wr_str	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^pub wr_str(addr, p_zstr) | ackbit, b$/
-wr_word	/home/eswanson/Programming/dc22-badge/badge/jm_24xx512.spin	/^pub wr_word(addr, w)$/
-NEG_DETECT	/home/eswanson/Programming/dc22-badge/badge/jm_sircs_rx.spin	/^NEG_DETECT              long    %01100 << 26$/
-POS_DETECT	/home/eswanson/Programming/dc22-badge/badge/jm_sircs_rx.spin	/^POS_DETECT              long    %01000 << 26$/
-bit_count	/home/eswanson/Programming/dc22-badge/badge/jm_sircs_rx.spin	/^pub bit_count$/
-cog	/home/eswanson/Programming/dc22-badge/badge/jm_sircs_rx.spin	/^long  cog$/
-disable	/home/eswanson/Programming/dc22-badge/badge/jm_sircs_rx.spin	/^pub disable$/
-enable	/home/eswanson/Programming/dc22-badge/badge/jm_sircs_rx.spin	/^pub enable$/
-irbits	/home/eswanson/Programming/dc22-badge/badge/jm_sircs_rx.spin	/^long  irbits$/
-ircode	/home/eswanson/Programming/dc22-badge/badge/jm_sircs_rx.spin	/^long  ircode$/
-irrx	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^irrx : "jm_sircs_rx"$/
-rx	/home/eswanson/Programming/dc22-badge/badge/jm_sircs_rx.spin	/^pub rx$/
-rxcheck	/home/eswanson/Programming/dc22-badge/badge/jm_sircs_rx.spin	/^pub rxcheck$/
-start	/home/eswanson/Programming/dc22-badge/badge/jm_sircs_rx.spin	/^pub start(p)$/
-stop	/home/eswanson/Programming/dc22-badge/badge/jm_sircs_rx.spin	/^pub stop$/
-NCO_SE	/home/eswanson/Programming/dc22-badge/badge/jm_sircs_tx.spin	/^NCO_SE                  long    %00100_000$/
-ZERO	/home/eswanson/Programming/dc22-badge/badge/jm_sircs_tx.spin	/^ZERO                    long    0$/
-busy	/home/eswanson/Programming/dc22-badge/badge/jm_sircs_tx.spin	/^pub busy$/
-cog	/home/eswanson/Programming/dc22-badge/badge/jm_sircs_tx.spin	/^long  cog$/
-irbits	/home/eswanson/Programming/dc22-badge/badge/jm_sircs_tx.spin	/^long  irbits$/
-ircode	/home/eswanson/Programming/dc22-badge/badge/jm_sircs_tx.spin	/^long  ircode$/
-irframes	/home/eswanson/Programming/dc22-badge/badge/jm_sircs_tx.spin	/^long  irframes$/
-irstart	/home/eswanson/Programming/dc22-badge/badge/jm_sircs_tx.spin	/^long  irstart$/
-irtx	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^irtx : "jm_sircs_tx"$/
-start	/home/eswanson/Programming/dc22-badge/badge/jm_sircs_tx.spin	/^pub start(pin, hz)$/
-startx	/home/eswanson/Programming/dc22-badge/badge/jm_sircs_tx.spin	/^pub startx(pin, hz, framems)$/
-stop	/home/eswanson/Programming/dc22-badge/badge/jm_sircs_tx.spin	/^pub stop$/
-tx	/home/eswanson/Programming/dc22-badge/badge/jm_sircs_tx.spin	/^pub tx(code, bits, frames)$/
-c	/home/eswanson/Programming/dc22-badge/badge/jm_prng.spin	/^long  c$/
-prng	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^prng : "jm_prng"$/
-random	/home/eswanson/Programming/dc22-badge/badge/jm_prng.spin	/^pub random | t$/
-seed	/home/eswanson/Programming/dc22-badge/badge/jm_prng.spin	/^pub seed(xx, yy, zz, ww, cc)$/
-start	/home/eswanson/Programming/dc22-badge/badge/jm_prng.spin	/^pub start$/
-w	/home/eswanson/Programming/dc22-badge/badge/jm_prng.spin	/^long  w$/
-x	/home/eswanson/Programming/dc22-badge/badge/jm_prng.spin	/^long  x$/
-y	/home/eswanson/Programming/dc22-badge/badge/jm_prng.spin	/^long  y$/
-z	/home/eswanson/Programming/dc22-badge/badge/jm_prng.spin	/^long  z$/
-CHANNELS	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^CHANNELS = 8$/
-LAST_CH	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^LAST_CH  = CHANNELS - 1$/
-LINEAR	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^LINEAR   = $FF$/
-LOG	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^LOG      = $00$/
-LogTable	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^LogTable                byte    000, 000, 000, 000, 000, 000, 000, 000$/
-MIN_TIX	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^MIN_TIX  = 850$/
-address	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^pub address$/
-basepin	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^long  basepin$/
-bittix	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^long  bittix$/
-brightness	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^byte  brightness[CHANNELS]$/
-brpntr	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^long  brpntr$/
-chmode	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^long  chmode$/
-cog	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^long  cog$/
-curvepntr	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^long  curvepntr$/
-dcd	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^pub dcd(bit)$/
-dec	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^pub dec(ch)$/
-dec_all	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^pub dec_all | ch$/
-digital	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^pub digital(value, mask) | ch$/
-ez_log	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^pub ez_log(level)$/
-high	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^pub high(ch)$/
-inc	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^pub inc(ch)$/
-inc_all	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^pub inc_all | ch$/
-low	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^pub low(ch)$/
-pincount	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^long  pincount$/
-pwm	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^pwm  : "jm_pwm8"$/
-pwm_mode	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^pub pwm_mode(ch, state) | mask$/
-read	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^pub read(ch)$/
-running	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^pub running$/
-set	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^pub set(ch, level)$/
-set_all	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^pub set_all(level)$/
-start	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^pub start(count, base)$/
-startx	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^pub startx(count, base, freq, cpntr)$/
-stop	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^pub stop$/
-toggle	/home/eswanson/Programming/dc22-badge/badge/jm_pwm8.spin	/^pub toggle(ch)$/
-BUF_LAST	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^BUF_LAST = BUF_SIZE-1$/
-BUF_SIZE	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^BUF_SIZE = 64$/
-bin	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^pub bin(value, digits)$/
-bit_ticks	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^long  bit_ticks$/
-buffer_ptr	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^long  buffer_ptr$/
-caesar	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^pub caesar(p_zstr) | c$/
-cog	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^long  cog$/
-dec	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^pub dec(value) | i, x$/
-exor	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^pub exor(p_zstr)$/
-hex	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^pub hex(value, digits)$/
-lost	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^byte  lost$/
-otp	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^pub otp(p_zstr1, p_zstr2)$/
-rjdec	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^pub rjdec(val, width, pchar) | tmpval, pad$/
-rx	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^pub rx : rxbyte$/
-rx_buffer	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^byte  rx_buffer[BUF_SIZE]$/
-rx_head	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^long  rx_head$/
-rx_pin	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^long  rx_pin$/
-rx_tail	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^long  rx_tail$/
-rxcheck	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^pub rxcheck : rxbyte$/
-rxflush	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^pub rxflush$/
-rxtime	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^pub rxtime(ms) : rxbyte | t$/
-rxtix	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^pub rxtix(tix) : rxbyte | t$/
-rxtx_mode	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^long  rxtx_mode$/
-start	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^pub start(rxpin, txpin, mode, baudrate) : okay$/
-stop	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^pub stop$/
-str	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^pub str(p_zstr)$/
-term	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^term : "cryptofullduplexserial64"$/
-tx	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^pub tx(txbyte)$/
-tx_buffer	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^byte  tx_buffer[BUF_SIZE]$/
-tx_head	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^long  tx_head$/
-tx_pin	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^long  tx_pin$/
-tx_tail	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^long  tx_tail$/
-txflush	/home/eswanson/Programming/dc22-badge/badge/CryptoFullDuplexSerial64.spin	/^pub txflush$/
-adjust	/home/eswanson/Programming/dc22-badge/badge/jm_eztimer.spin	/^pub adjust(msoffset)$/
-get_sync	/home/eswanson/Programming/dc22-badge/badge/jm_eztimer.spin	/^pub get_sync$/
-mark	/home/eswanson/Programming/dc22-badge/badge/jm_eztimer.spin	/^pub mark | now, delta$/
-millis	/home/eswanson/Programming/dc22-badge/badge/jm_eztimer.spin	/^pub millis$/
-ms	/home/eswanson/Programming/dc22-badge/badge/jm_eztimer.spin	/^long  ms$/
-seconds	/home/eswanson/Programming/dc22-badge/badge/jm_eztimer.spin	/^pub seconds$/
-start	/home/eswanson/Programming/dc22-badge/badge/jm_eztimer.spin	/^pub start$/
-startx	/home/eswanson/Programming/dc22-badge/badge/jm_eztimer.spin	/^pub startx(spoint)$/
-sync	/home/eswanson/Programming/dc22-badge/badge/jm_eztimer.spin	/^long  sync$/
-tix	/home/eswanson/Programming/dc22-badge/badge/jm_eztimer.spin	/^long  tix$/
-tmr1	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^tmr1 : "jm_eztimer"$/
-tms	/home/eswanson/Programming/dc22-badge/badge/jm_eztimer.spin	/^long  tms$/
-#8	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^#1, HOME, GOTOXY, #8, BKSP, TAB, LF, CLREOL, CLRDN, CR$/
-BKSP	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^#1, HOME, GOTOXY, #8, BKSP, TAB, LF, CLREOL, CLRDN, CR$/
-B_SPEED	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^B_SPEED  = 20      $/
-CLK_FREQ	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^CLK_FREQ = ((_clkmode - xtal1) >> 6) * _xinfreq$/
-CLRDN	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^#1, HOME, GOTOXY, #8, BKSP, TAB, LF, CLREOL, CLRDN, CR$/
-CLREOL	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^#1, HOME, GOTOXY, #8, BKSP, TAB, LF, CLREOL, CLRDN, CR$/
-CLS	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^#14, GOTOX, GOTOY, CLS$/
-CR	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^#1, HOME, GOTOXY, #8, BKSP, TAB, LF, CLREOL, CLRDN, CR$/
-Chaser	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Chaser      byte      (@Chaser_X - @Chaser) / 2 + 1$/
-Chaser_X	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Chaser_X    byte      %01001001,  75$/
-Cmd00	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Cmd00       byte      $05, $42, $54, $57, $50, $20, $4A, $4E, $4C, $4D, $59, $20, $4D, $54$/
-Cmd01	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Cmd01       byte      $04, $41, $45, $58, $47, $4C, $20, $58, $5A, $0D, $00$/
-Cmd02	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Cmd02       byte      $0E, $47, $49, $50, $41, $57, $48, $0D, $00, $4C, $49, $46, $45, $00$/
-Cmd03	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Cmd03       byte      $0C, $45, $46, $4D, $4B, $20, $4D, $45, $58, $51, $51, $42, $0D, $00$/
-Cmd04	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Cmd04       byte      $04, $53, $46, $49, $43, $0D, $00, $47, $69, $47, $21, $00$/
-Cmd05	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Cmd05       byte      $14, $48, $49, $20, $43, $48, $58, $59, $4A, $59, $48, $58, $59, $48$/
-Cmd06	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Cmd06       byte      $02, $50, $51, $20, $4B, $4F, $43, $49, $4B, $50, $43, $56, $4B, $51$/
-Cmd07	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Cmd07       byte      $0C, $59, $4D, $44, $44, $4B, $20, $4D, $5A, $50, $20, $44, $51, $42$/
-Cmd08	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Cmd08       byte      $05, $4A, $46, $59, $0D, $00, $48, $45, $41, $4C, $54, $48, $00$/
-Cmd09	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Cmd09       byte      $09, $4D, $58, $20, $57, $58, $43, $20, $5A, $44, $4E, $42, $43, $52$/
-Cmd10	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Cmd10       byte      $0F, $52, $44, $43, $48, $4A, $42, $54, $0D, $00$/
-Cmd11	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Cmd11       byte      $02, $45, $51, $50, $48, $51, $54, $4F, $0D, $00$/
-Cmd12	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Cmd12       byte      $19, $41, $54, $58, $0D, $00, $57, $45, $41, $4C, $54, $48, $00$/
-Commands	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Commands    word      @Cmd00, @Cmd01, @Cmd02, @Cmd03, @Cmd04, @Cmd05$/
-Cylon	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Cylon       byte      (@Cylon_X - @Cylon) / 2 + 1$/
-Cylon_X	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Cylon_X     byte      %01000000, 125$/
-Detective	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Detective   byte      13,74,85,82,69,82,32,71,66,32,79,82,84,86,65,32,86,32,88,65,66,74,32,83,86,65,81,32,85,78,69,66,89,81,13,0$/
-Diver	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Diver       byte      10,"DBI DRO PSBCD RKVP YP RSC ZRYXO XEWLOB PYVVYGON LI RSC VKCD XKWO DROX DRO COMYXN RKVP YP RSC XEWLOB",CR,0$/
-Driver	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Driver      byte      "SOMETIMES WE HAVE ANSWERS AND DONT EVEN KNOW IT SO ENJOY THE VIEW JUST BE HAPPY",0$/
-Football	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Football    byte      "IT MIGHT BE HELPFUL LATER IF YOU KNOW HOW TO GET TO EDEN OR AT LEAST THE WAY",0$/
-GOTOX	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^#14, GOTOX, GOTOY, CLS$/
-GOTOXY	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^#1, HOME, GOTOXY, #8, BKSP, TAB, LF, CLREOL, CLRDN, CR$/
-GOTOY	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^#14, GOTOX, GOTOY, CLS$/
-Greets	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Greets      byte      16,77,85,66,83,69,67,85,32,74,69,32,84,85,86,83,69,68,32,74,77,85,68,74,79,32,74,77,69,13,0$/
-HOME	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^#1, HOME, GOTOXY, #8, BKSP, TAB, LF, CLREOL, CLRDN, CR$/
-IR_BAUD	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^IR_BAUD  = 2400    $/
-IR_FREQ	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^IR_FREQ  = 36_000  $/
-IR_IN	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^IR_IN  = 15$/
-IR_OUT	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^IR_OUT = 14$/
-IS_HIGH	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^IS_HIGH   = -1$/
-IS_INPUT	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^IS_INPUT  =  0$/
-IS_LOW	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^IS_LOW    =  0$/
-IS_OFF	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^IS_OFF    =  0$/
-IS_ON	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^IS_ON     = -1$/
-IS_OUTPUT	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^IS_OUTPUT = -1$/
-InOut	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^InOut       byte      (@InOut_X - @InOut) / 2 + 1$/
-InOut_X	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^InOut_X     byte      %01000010, 100$/
-LED0	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^LED0   = 16$/
-LED1	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^LED1   = 17$/
-LED2	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^LED2   = 18$/
-LED3	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^LED3   = 19$/
-LED4	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^LED4   = 20$/
-LED5	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^LED5   = 21$/
-LED6	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^LED6   = 22$/
-LED7	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^LED7   = 23$/
-LF	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^#1, HOME, GOTOXY, #8, BKSP, TAB, LF, CLREOL, CLRDN, CR$/
-MS_001	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^MS_001   = CLK_FREQ / 1_000$/
-Mystery	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Mystery     byte      "OH A MYSTERY STRING I SHOULD HANG ON TO THIS FOR LATER I WONDER WHAT ITS FOR OR WHAT IT DECODES TO?",0$/
-PAD0	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^PAD0   = 24$/
-PAD1	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^PAD1   = 25$/
-PAD2	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^PAD2   = 26$/
-PAD3	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^PAD3   = 27$/
-Police	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Police      byte      (@Police_X - @Police) / 2 + 1$/
-Police_X	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Police_X    byte      %00110011,  75$/
-Politician	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Politician  byte      83,83,80,87,76,77,32,84,72,67,65,80,32,81,80,32,74,84,32,73,87,69,32,87,68,88,70,90,32,89,85,90,88,32,85,77,86,72,88,72,32,90,65,32,67,66,32,80,65,69,32,88,82,79,76,32,70,65,89,32,73,80,89,75,13,0$/
-RC_SLOW	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^RC_SLOW  = %0_0_0_00_001$/
-RX1	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^RX1    = 31$/
-RayNelson	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^RayNelson   byte      "IAIHG TPJNU QU CZR GALWXK DC MHR LANK FOTLA OTN LOYOC HPMPB PX HKICW",0$/
-SCL	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^SCL    = 28$/
-SDA	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^SDA    = 29$/
-Scientist	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Scientist   byte      76,81,84,89,86,70,32,82,75,66,32,83,78,90,32,83,81,87,83,85,32,87,82,65,32,73,77,82,66,32,67,70,72,82,32,90,65,65,65,65,32,73,89,77,87,90,32,80,32,69,65,74,81,86,68,32,89,79,84,80,32,76,71,65,87,32,89,75,90,76,13,0$/
-TAB	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^#1, HOME, GOTOXY, #8, BKSP, TAB, LF, CLREOL, CLRDN, CR$/
-TX1	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^TX1    = 30$/
-T_BAUD	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^T_BAUD   = 57_600  $/
-Test3	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Test3       byte      "ZGJG MTM LLPN C NTER MPMH TW",CR,0$/
-Test4	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Test4       byte      "DID YOU REALLY THINK THAT IT WOULD BE SO EASY? Really?  Just running strings?",0$/
-US_001	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^US_001   = CLK_FREQ / 1_000_000$/
-XT1_P16	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^XT1_P16  = %0_1_1_01_111$/
-XT1_PL1	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^XT1_PL1  = %0_1_1_01_011$/
-XT1_PL2	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^XT1_PL2  = %0_1_1_01_100$/
-XT1_PL4	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^XT1_PL4  = %0_1_1_01_101$/
-XT1_PL8	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^XT1_PL8  = %0_1_1_01_110$/
-Z	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Z           byte      (@Z_X - @Z) / 2 + 1$/
-Z_X	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^Z_X         byte      %11000000,  75$/
-_clkmode	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^_clkmode = xtal1 + pll16x$/
-_xinfreq	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^_xinfreq = 5_000_000$/
-anicog	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^long  anicog$/
-anistack	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^long  anistack[32]$/
-high	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^pub high(pin)$/
-input	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^pub input(pin)$/
-low	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^pub low(pin)$/
-main	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^pub main | idx, last, button, lock$/
-ms001	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^long  ms001$/
-pause	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^pub pause(ms) | t$/
-pulse_out	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^pub pulse_out(pin, us) | state$/
-read_pads	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^pub read_pads$/
-run_animation	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^pri run_animation(p_table, cycles) | p_leds$/
-run_animation_custom	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^pri run_animation_custom(index, pause_len) | clock$/
-set_freq	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^pub set_freq(ctrx, px, fx)$/
-set_leds	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^pub set_leds(pattern)$/
-set_speed	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^pub set_speed(mhz)$/
-setup	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^pub setup$/
-start_animation	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^pri start_animation(p_table, cycles)$/
-start_animation_custom	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^pri start_animation_custom(index, pause_len)$/
-stop_animation	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^pri stop_animation$/
-toggle	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^pub toggle(pin)$/
-us001	/home/eswanson/Programming/dc22-badge/badge/dc22_badge_human.spin	/^long  us001$/
+ACK	/home/user/1o57/badge/jm_i2c.spin	/^#0, ACK, NAK$/
+EE_SCL	/home/user/1o57/badge/jm_i2c.spin	/^EE_SCL = 28$/
+EE_SDA	/home/user/1o57/badge/jm_i2c.spin	/^EE_SDA = 29$/
+NAK	/home/user/1o57/badge/jm_i2c.spin	/^#0, ACK, NAK$/
+RX1	/home/user/1o57/badge/jm_i2c.spin	/^RX1    = 31$/
+TX1	/home/user/1o57/badge/jm_i2c.spin	/^TX1    = 30$/
+i2c	/home/user/1o57/badge/jm_24xx512.spin	/^i2c : "jm_i2c"$/
+present	/home/user/1o57/badge/jm_i2c.spin	/^pub present(ctrl)$/
+read	/home/user/1o57/badge/jm_i2c.spin	/^pub read(ackbit) | i2cbyte$/
+scl	/home/user/1o57/badge/jm_i2c.spin	/^long  scl$/
+sda	/home/user/1o57/badge/jm_i2c.spin	/^long  sda$/
+setup	/home/user/1o57/badge/jm_i2c.spin	/^pub setup$/
+setupx	/home/user/1o57/badge/jm_i2c.spin	/^pub setupx(sclpin, sdapin)$/
+start	/home/user/1o57/badge/jm_i2c.spin	/^pub start$/
+stop	/home/user/1o57/badge/jm_i2c.spin	/^pub stop$/
+wait	/home/user/1o57/badge/jm_i2c.spin	/^pub wait(ctrl) | ackbit$/
+write	/home/user/1o57/badge/jm_i2c.spin	/^pub write(i2cbyte) | ackbit$/
+ACK	/home/user/1o57/badge/jm_24xx512.spin	/^ACK      = i2c#ACK$/
+EE_READ	/home/user/1o57/badge/jm_24xx512.spin	/^EE_READ  = %1010_000_1$/
+EE_SCL	/home/user/1o57/badge/jm_24xx512.spin	/^EE_SCL  = 28$/
+EE_SDA	/home/user/1o57/badge/jm_24xx512.spin	/^EE_SDA  = 29$/
+EE_WRITE	/home/user/1o57/badge/jm_24xx512.spin	/^EE_WRITE = %1010_000_0$/
+NAK	/home/user/1o57/badge/jm_24xx512.spin	/^NAK      = i2c#NAK$/
+PG_SIZE	/home/user/1o57/badge/jm_24xx512.spin	/^PG_SIZE  = 128$/
+RX1	/home/user/1o57/badge/jm_24xx512.spin	/^RX1     = 31$/
+TX1	/home/user/1o57/badge/jm_24xx512.spin	/^TX1     = 30$/
+copy_from	/home/user/1o57/badge/jm_24xx512.spin	/^pub copy_from(addr, n, p_dest)$/
+copy_to	/home/user/1o57/badge/jm_24xx512.spin	/^pub copy_to(addr, n, p_src)$/
+devid	/home/user/1o57/badge/jm_24xx512.spin	/^long  devid$/
+ee	/home/user/1o57/badge/dc22_badge_human.spin	/^ee   : "jm_24xx512"$/
+fill	/home/user/1o57/badge/jm_24xx512.spin	/^pub fill(addr, n, b) | ackbit$/
+page_num	/home/user/1o57/badge/jm_24xx512.spin	/^pub page_num(addr)$/
+page_ok	/home/user/1o57/badge/jm_24xx512.spin	/^pub page_ok(addr, len) | pg0, pg1$/
+rd_block	/home/user/1o57/badge/jm_24xx512.spin	/^pub rd_block(addr, n, p_dest)$/
+rd_byte	/home/user/1o57/badge/jm_24xx512.spin	/^pub rd_byte(addr) | b$/
+rd_long	/home/user/1o57/badge/jm_24xx512.spin	/^pub rd_long(addr) | l$/
+rd_str	/home/user/1o57/badge/jm_24xx512.spin	/^pub rd_str(addr, p_dest) | b$/
+rd_word	/home/user/1o57/badge/jm_24xx512.spin	/^pub rd_word(addr) | w$/
+scl	/home/user/1o57/badge/jm_24xx512.spin	/^long  scl$/
+sda	/home/user/1o57/badge/jm_24xx512.spin	/^long  sda$/
+start	/home/user/1o57/badge/jm_24xx512.spin	/^pub start(device)$/
+startx	/home/user/1o57/badge/jm_24xx512.spin	/^pub startx(sclpin, sdapin, device)$/
+wait	/home/user/1o57/badge/jm_24xx512.spin	/^pub wait$/
+wr_block	/home/user/1o57/badge/jm_24xx512.spin	/^pub wr_block(addr, n, p_src) | ackbit$/
+wr_byte	/home/user/1o57/badge/jm_24xx512.spin	/^pub wr_byte(addr, b)$/
+wr_long	/home/user/1o57/badge/jm_24xx512.spin	/^pub wr_long(addr, l)$/
+wr_str	/home/user/1o57/badge/jm_24xx512.spin	/^pub wr_str(addr, p_zstr) | ackbit, b$/
+wr_word	/home/user/1o57/badge/jm_24xx512.spin	/^pub wr_word(addr, w)$/
+NEG_DETECT	/home/user/1o57/badge/jm_sircs_rx.spin	/^NEG_DETECT              long    %01100 << 26$/
+POS_DETECT	/home/user/1o57/badge/jm_sircs_rx.spin	/^POS_DETECT              long    %01000 << 26$/
+bit_count	/home/user/1o57/badge/jm_sircs_rx.spin	/^pub bit_count$/
+cog	/home/user/1o57/badge/jm_sircs_rx.spin	/^long  cog$/
+disable	/home/user/1o57/badge/jm_sircs_rx.spin	/^pub disable$/
+enable	/home/user/1o57/badge/jm_sircs_rx.spin	/^pub enable$/
+irbits	/home/user/1o57/badge/jm_sircs_rx.spin	/^long  irbits$/
+ircode	/home/user/1o57/badge/jm_sircs_rx.spin	/^long  ircode$/
+irrx	/home/user/1o57/badge/dc22_badge_human.spin	/^irrx : "jm_sircs_rx"$/
+rx	/home/user/1o57/badge/jm_sircs_rx.spin	/^pub rx$/
+rxcheck	/home/user/1o57/badge/jm_sircs_rx.spin	/^pub rxcheck$/
+start	/home/user/1o57/badge/jm_sircs_rx.spin	/^pub start(p)$/
+stop	/home/user/1o57/badge/jm_sircs_rx.spin	/^pub stop$/
+NCO_SE	/home/user/1o57/badge/jm_sircs_tx.spin	/^NCO_SE                  long    %00100_000$/
+ZERO	/home/user/1o57/badge/jm_sircs_tx.spin	/^ZERO                    long    0$/
+busy	/home/user/1o57/badge/jm_sircs_tx.spin	/^pub busy$/
+cog	/home/user/1o57/badge/jm_sircs_tx.spin	/^long  cog$/
+irbits	/home/user/1o57/badge/jm_sircs_tx.spin	/^long  irbits$/
+ircode	/home/user/1o57/badge/jm_sircs_tx.spin	/^long  ircode$/
+irframes	/home/user/1o57/badge/jm_sircs_tx.spin	/^long  irframes$/
+irstart	/home/user/1o57/badge/jm_sircs_tx.spin	/^long  irstart$/
+irtx	/home/user/1o57/badge/dc22_badge_human.spin	/^irtx : "jm_sircs_tx"$/
+start	/home/user/1o57/badge/jm_sircs_tx.spin	/^pub start(pin, hz)$/
+startx	/home/user/1o57/badge/jm_sircs_tx.spin	/^pub startx(pin, hz, framems)$/
+stop	/home/user/1o57/badge/jm_sircs_tx.spin	/^pub stop$/
+tx	/home/user/1o57/badge/jm_sircs_tx.spin	/^pub tx(code, bits, frames)$/
+c	/home/user/1o57/badge/jm_prng.spin	/^long  c$/
+prng	/home/user/1o57/badge/dc22_badge_human.spin	/^prng : "jm_prng"$/
+random	/home/user/1o57/badge/jm_prng.spin	/^pub random | t$/
+seed	/home/user/1o57/badge/jm_prng.spin	/^pub seed(xx, yy, zz, ww, cc)$/
+start	/home/user/1o57/badge/jm_prng.spin	/^pub start$/
+w	/home/user/1o57/badge/jm_prng.spin	/^long  w$/
+x	/home/user/1o57/badge/jm_prng.spin	/^long  x$/
+y	/home/user/1o57/badge/jm_prng.spin	/^long  y$/
+z	/home/user/1o57/badge/jm_prng.spin	/^long  z$/
+CHANNELS	/home/user/1o57/badge/jm_pwm8.spin	/^CHANNELS = 8$/
+LAST_CH	/home/user/1o57/badge/jm_pwm8.spin	/^LAST_CH  = CHANNELS - 1$/
+LINEAR	/home/user/1o57/badge/jm_pwm8.spin	/^LINEAR   = $FF$/
+LOG	/home/user/1o57/badge/jm_pwm8.spin	/^LOG      = $00$/
+LogTable	/home/user/1o57/badge/jm_pwm8.spin	/^LogTable                byte    000, 000, 000, 000, 000, 000, 000, 000$/
+MIN_TIX	/home/user/1o57/badge/jm_pwm8.spin	/^MIN_TIX  = 850$/
+address	/home/user/1o57/badge/jm_pwm8.spin	/^pub address$/
+basepin	/home/user/1o57/badge/jm_pwm8.spin	/^long  basepin$/
+bittix	/home/user/1o57/badge/jm_pwm8.spin	/^long  bittix$/
+brightness	/home/user/1o57/badge/jm_pwm8.spin	/^byte  brightness[CHANNELS]$/
+brpntr	/home/user/1o57/badge/jm_pwm8.spin	/^long  brpntr$/
+chmode	/home/user/1o57/badge/jm_pwm8.spin	/^long  chmode$/
+cog	/home/user/1o57/badge/jm_pwm8.spin	/^long  cog$/
+curvepntr	/home/user/1o57/badge/jm_pwm8.spin	/^long  curvepntr$/
+dcd	/home/user/1o57/badge/jm_pwm8.spin	/^pub dcd(bit)$/
+dec	/home/user/1o57/badge/jm_pwm8.spin	/^pub dec(ch)$/
+dec_all	/home/user/1o57/badge/jm_pwm8.spin	/^pub dec_all | ch$/
+digital	/home/user/1o57/badge/jm_pwm8.spin	/^pub digital(value, mask) | ch$/
+ez_log	/home/user/1o57/badge/jm_pwm8.spin	/^pub ez_log(level)$/
+high	/home/user/1o57/badge/jm_pwm8.spin	/^pub high(ch)$/
+inc	/home/user/1o57/badge/jm_pwm8.spin	/^pub inc(ch)$/
+inc_all	/home/user/1o57/badge/jm_pwm8.spin	/^pub inc_all | ch$/
+low	/home/user/1o57/badge/jm_pwm8.spin	/^pub low(ch)$/
+pincount	/home/user/1o57/badge/jm_pwm8.spin	/^long  pincount$/
+pwm	/home/user/1o57/badge/dc22_badge_human.spin	/^pwm  : "jm_pwm8"$/
+pwm_mode	/home/user/1o57/badge/jm_pwm8.spin	/^pub pwm_mode(ch, state) | mask$/
+read	/home/user/1o57/badge/jm_pwm8.spin	/^pub read(ch)$/
+running	/home/user/1o57/badge/jm_pwm8.spin	/^pub running$/
+set	/home/user/1o57/badge/jm_pwm8.spin	/^pub set(ch, level)$/
+set_all	/home/user/1o57/badge/jm_pwm8.spin	/^pub set_all(level)$/
+start	/home/user/1o57/badge/jm_pwm8.spin	/^pub start(count, base)$/
+startx	/home/user/1o57/badge/jm_pwm8.spin	/^pub startx(count, base, freq, cpntr)$/
+stop	/home/user/1o57/badge/jm_pwm8.spin	/^pub stop$/
+toggle	/home/user/1o57/badge/jm_pwm8.spin	/^pub toggle(ch)$/
+BUF_LAST	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^BUF_LAST = BUF_SIZE-1$/
+BUF_SIZE	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^BUF_SIZE = 64$/
+bin	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^pub bin(value, digits)$/
+bit_ticks	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^long  bit_ticks$/
+buffer_ptr	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^long  buffer_ptr$/
+caesar	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^pub caesar(p_zstr) | c$/
+cog	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^long  cog$/
+dec	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^pub dec(value) | i, x$/
+exor	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^pub exor(p_zstr)$/
+hex	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^pub hex(value, digits)$/
+lost	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^byte  lost$/
+otp	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^pub otp(p_zstr1, p_zstr2)$/
+rjdec	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^pub rjdec(val, width, pchar) | tmpval, pad$/
+rx	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^pub rx : rxbyte$/
+rx_buffer	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^byte  rx_buffer[BUF_SIZE]$/
+rx_head	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^long  rx_head$/
+rx_pin	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^long  rx_pin$/
+rx_tail	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^long  rx_tail$/
+rxcheck	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^pub rxcheck : rxbyte$/
+rxflush	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^pub rxflush$/
+rxtime	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^pub rxtime(ms) : rxbyte | t$/
+rxtix	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^pub rxtix(tix) : rxbyte | t$/
+rxtx_mode	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^long  rxtx_mode$/
+start	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^pub start(rxpin, txpin, mode, baudrate) : okay$/
+stop	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^pub stop$/
+str	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^pub str(p_zstr)$/
+term	/home/user/1o57/badge/dc22_badge_human.spin	/^term : "cryptofullduplexserial64"$/
+tx	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^pub tx(txbyte)$/
+tx_buffer	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^byte  tx_buffer[BUF_SIZE]$/
+tx_head	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^long  tx_head$/
+tx_pin	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^long  tx_pin$/
+tx_tail	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^long  tx_tail$/
+txflush	/home/user/1o57/badge/CryptoFullDuplexSerial64.spin	/^pub txflush$/
+adjust	/home/user/1o57/badge/jm_eztimer.spin	/^pub adjust(msoffset)$/
+get_sync	/home/user/1o57/badge/jm_eztimer.spin	/^pub get_sync$/
+mark	/home/user/1o57/badge/jm_eztimer.spin	/^pub mark | now, delta$/
+millis	/home/user/1o57/badge/jm_eztimer.spin	/^pub millis$/
+ms	/home/user/1o57/badge/jm_eztimer.spin	/^long  ms$/
+seconds	/home/user/1o57/badge/jm_eztimer.spin	/^pub seconds$/
+start	/home/user/1o57/badge/jm_eztimer.spin	/^pub start$/
+startx	/home/user/1o57/badge/jm_eztimer.spin	/^pub startx(spoint)$/
+sync	/home/user/1o57/badge/jm_eztimer.spin	/^long  sync$/
+tix	/home/user/1o57/badge/jm_eztimer.spin	/^long  tix$/
+tmr1	/home/user/1o57/badge/dc22_badge_human.spin	/^tmr1 : "jm_eztimer"$/
+tms	/home/user/1o57/badge/jm_eztimer.spin	/^long  tms$/
+#8	/home/user/1o57/badge/dc22_badge_human.spin	/^#1, HOME, GOTOXY, #8, BKSP, TAB, LF, CLREOL, CLRDN, CR$/
+BKSP	/home/user/1o57/badge/dc22_badge_human.spin	/^#1, HOME, GOTOXY, #8, BKSP, TAB, LF, CLREOL, CLRDN, CR$/
+B_SPEED	/home/user/1o57/badge/dc22_badge_human.spin	/^B_SPEED  = 20      $/
+CLK_FREQ	/home/user/1o57/badge/dc22_badge_human.spin	/^CLK_FREQ = ((_clkmode - xtal1) >> 6) * _xinfreq$/
+CLRDN	/home/user/1o57/badge/dc22_badge_human.spin	/^#1, HOME, GOTOXY, #8, BKSP, TAB, LF, CLREOL, CLRDN, CR$/
+CLREOL	/home/user/1o57/badge/dc22_badge_human.spin	/^#1, HOME, GOTOXY, #8, BKSP, TAB, LF, CLREOL, CLRDN, CR$/
+CLS	/home/user/1o57/badge/dc22_badge_human.spin	/^#14, GOTOX, GOTOY, CLS$/
+CR	/home/user/1o57/badge/dc22_badge_human.spin	/^#1, HOME, GOTOXY, #8, BKSP, TAB, LF, CLREOL, CLRDN, CR$/
+Chaser	/home/user/1o57/badge/dc22_badge_human.spin	/^Chaser      byte      (@Chaser_X - @Chaser) / 2 + 1$/
+Chaser_X	/home/user/1o57/badge/dc22_badge_human.spin	/^Chaser_X    byte      %01001001,  75$/
+Cmd00	/home/user/1o57/badge/dc22_badge_human.spin	/^Cmd00       byte      $05, $42, $54, $57, $50, $20, $4A, $4E, $4C, $4D, $59, $20, $4D, $54$/
+Cmd01	/home/user/1o57/badge/dc22_badge_human.spin	/^Cmd01       byte      $04, $41, $45, $58, $47, $4C, $20, $58, $5A, $0D, $00$/
+Cmd02	/home/user/1o57/badge/dc22_badge_human.spin	/^Cmd02       byte      $0E, $47, $49, $50, $41, $57, $48, $0D, $00, $4C, $49, $46, $45, $00$/
+Cmd03	/home/user/1o57/badge/dc22_badge_human.spin	/^Cmd03       byte      $0C, $45, $46, $4D, $4B, $20, $4D, $45, $58, $51, $51, $42, $0D, $00$/
+Cmd04	/home/user/1o57/badge/dc22_badge_human.spin	/^Cmd04       byte      $04, $53, $46, $49, $43, $0D, $00, $47, $69, $47, $21, $00$/
+Cmd05	/home/user/1o57/badge/dc22_badge_human.spin	/^Cmd05       byte      $14, $48, $49, $20, $43, $48, $58, $59, $4A, $59, $48, $58, $59, $48$/
+Cmd06	/home/user/1o57/badge/dc22_badge_human.spin	/^Cmd06       byte      $02, $50, $51, $20, $4B, $4F, $43, $49, $4B, $50, $43, $56, $4B, $51$/
+Cmd07	/home/user/1o57/badge/dc22_badge_human.spin	/^Cmd07       byte      $0C, $59, $4D, $44, $44, $4B, $20, $4D, $5A, $50, $20, $44, $51, $42$/
+Cmd08	/home/user/1o57/badge/dc22_badge_human.spin	/^Cmd08       byte      $05, $4A, $46, $59, $0D, $00, $48, $45, $41, $4C, $54, $48, $00$/
+Cmd09	/home/user/1o57/badge/dc22_badge_human.spin	/^Cmd09       byte      $09, $4D, $58, $20, $57, $58, $43, $20, $5A, $44, $4E, $42, $43, $52$/
+Cmd10	/home/user/1o57/badge/dc22_badge_human.spin	/^Cmd10       byte      $0F, $52, $44, $43, $48, $4A, $42, $54, $0D, $00$/
+Cmd11	/home/user/1o57/badge/dc22_badge_human.spin	/^Cmd11       byte      $02, $45, $51, $50, $48, $51, $54, $4F, $0D, $00$/
+Cmd12	/home/user/1o57/badge/dc22_badge_human.spin	/^Cmd12       byte      $19, $41, $54, $58, $0D, $00, $57, $45, $41, $4C, $54, $48, $00$/
+Commands	/home/user/1o57/badge/dc22_badge_human.spin	/^Commands    word      @Cmd00, @Cmd01, @Cmd02, @Cmd03, @Cmd04, @Cmd05$/
+Cylon	/home/user/1o57/badge/dc22_badge_human.spin	/^Cylon       byte      (@Cylon_X - @Cylon) / 2 + 1$/
+Cylon_X	/home/user/1o57/badge/dc22_badge_human.spin	/^Cylon_X     byte      %01000000, 125$/
+Detective	/home/user/1o57/badge/dc22_badge_human.spin	/^Detective   byte      13,74,85,82,69,82,32,71,66,32,79,82,84,86,65,32,86,32,88,65,66,74,32,83,86,65,81,32,85,78,69,66,89,81,13,0$/
+Diver	/home/user/1o57/badge/dc22_badge_human.spin	/^Diver       byte      10,"DBI DRO PSBCD RKVP YP RSC ZRYXO XEWLOB PYVVYGON LI RSC VKCD XKWO DROX DRO COMYXN RKVP YP RSC XEWLOB",CR,0$/
+Driver	/home/user/1o57/badge/dc22_badge_human.spin	/^Driver      byte      "SOMETIMES WE HAVE ANSWERS AND DONT EVEN KNOW IT SO ENJOY THE VIEW JUST BE HAPPY",0$/
+Football	/home/user/1o57/badge/dc22_badge_human.spin	/^Football    byte      "IT MIGHT BE HELPFUL LATER IF YOU KNOW HOW TO GET TO EDEN OR AT LEAST THE WAY",0$/
+GOTOX	/home/user/1o57/badge/dc22_badge_human.spin	/^#14, GOTOX, GOTOY, CLS$/
+GOTOXY	/home/user/1o57/badge/dc22_badge_human.spin	/^#1, HOME, GOTOXY, #8, BKSP, TAB, LF, CLREOL, CLRDN, CR$/
+GOTOY	/home/user/1o57/badge/dc22_badge_human.spin	/^#14, GOTOX, GOTOY, CLS$/
+Greets	/home/user/1o57/badge/dc22_badge_human.spin	/^Greets      byte      16,77,85,66,83,69,67,85,32,74,69,32,84,85,86,83,69,68,32,74,77,85,68,74,79,32,74,77,69,13,0$/
+HOME	/home/user/1o57/badge/dc22_badge_human.spin	/^#1, HOME, GOTOXY, #8, BKSP, TAB, LF, CLREOL, CLRDN, CR$/
+IR_BAUD	/home/user/1o57/badge/dc22_badge_human.spin	/^IR_BAUD  = 2400    $/
+IR_FREQ	/home/user/1o57/badge/dc22_badge_human.spin	/^IR_FREQ  = 36_000  $/
+IR_IN	/home/user/1o57/badge/dc22_badge_human.spin	/^IR_IN  = 15$/
+IR_OUT	/home/user/1o57/badge/dc22_badge_human.spin	/^IR_OUT = 14$/
+IS_HIGH	/home/user/1o57/badge/dc22_badge_human.spin	/^IS_HIGH   = -1$/
+IS_INPUT	/home/user/1o57/badge/dc22_badge_human.spin	/^IS_INPUT  =  0$/
+IS_LOW	/home/user/1o57/badge/dc22_badge_human.spin	/^IS_LOW    =  0$/
+IS_OFF	/home/user/1o57/badge/dc22_badge_human.spin	/^IS_OFF    =  0$/
+IS_ON	/home/user/1o57/badge/dc22_badge_human.spin	/^IS_ON     = -1$/
+IS_OUTPUT	/home/user/1o57/badge/dc22_badge_human.spin	/^IS_OUTPUT = -1$/
+InOut	/home/user/1o57/badge/dc22_badge_human.spin	/^InOut       byte      (@InOut_X - @InOut) / 2 + 1$/
+InOut_X	/home/user/1o57/badge/dc22_badge_human.spin	/^InOut_X     byte      %01000010, 100$/
+LED0	/home/user/1o57/badge/dc22_badge_human.spin	/^LED0   = 16$/
+LED1	/home/user/1o57/badge/dc22_badge_human.spin	/^LED1   = 17$/
+LED2	/home/user/1o57/badge/dc22_badge_human.spin	/^LED2   = 18$/
+LED3	/home/user/1o57/badge/dc22_badge_human.spin	/^LED3   = 19$/
+LED4	/home/user/1o57/badge/dc22_badge_human.spin	/^LED4   = 20$/
+LED5	/home/user/1o57/badge/dc22_badge_human.spin	/^LED5   = 21$/
+LED6	/home/user/1o57/badge/dc22_badge_human.spin	/^LED6   = 22$/
+LED7	/home/user/1o57/badge/dc22_badge_human.spin	/^LED7   = 23$/
+LF	/home/user/1o57/badge/dc22_badge_human.spin	/^#1, HOME, GOTOXY, #8, BKSP, TAB, LF, CLREOL, CLRDN, CR$/
+MS_001	/home/user/1o57/badge/dc22_badge_human.spin	/^MS_001   = CLK_FREQ / 1_000$/
+Mystery	/home/user/1o57/badge/dc22_badge_human.spin	/^Mystery     byte      "OH A MYSTERY STRING I SHOULD HANG ON TO THIS FOR LATER I WONDER WHAT ITS FOR OR WHAT IT DECODES TO?",0$/
+PAD0	/home/user/1o57/badge/dc22_badge_human.spin	/^PAD0   = 24$/
+PAD1	/home/user/1o57/badge/dc22_badge_human.spin	/^PAD1   = 25$/
+PAD2	/home/user/1o57/badge/dc22_badge_human.spin	/^PAD2   = 26$/
+PAD3	/home/user/1o57/badge/dc22_badge_human.spin	/^PAD3   = 27$/
+Police	/home/user/1o57/badge/dc22_badge_human.spin	/^Police      byte      (@Police_X - @Police) / 2 + 1$/
+Police_X	/home/user/1o57/badge/dc22_badge_human.spin	/^Police_X    byte      %00110011,  75$/
+Politician	/home/user/1o57/badge/dc22_badge_human.spin	/^Politician  byte      83,83,80,87,76,77,32,84,72,67,65,80,32,81,80,32,74,84,32,73,87,69,32,87,68,88,70,90,32,89,85,90,88,32,85,77,86,72,88,72,32,90,65,32,67,66,32,80,65,69,32,88,82,79,76,32,70,65,89,32,73,80,89,75,13,0$/
+RC_SLOW	/home/user/1o57/badge/dc22_badge_human.spin	/^RC_SLOW  = %0_0_0_00_001$/
+RX1	/home/user/1o57/badge/dc22_badge_human.spin	/^RX1    = 31$/
+RayNelson	/home/user/1o57/badge/dc22_badge_human.spin	/^RayNelson   byte      "IAIHG TPJNU QU CZR GALWXK DC MHR LANK FOTLA OTN LOYOC HPMPB PX HKICW",0$/
+SCL	/home/user/1o57/badge/dc22_badge_human.spin	/^SCL    = 28$/
+SDA	/home/user/1o57/badge/dc22_badge_human.spin	/^SDA    = 29$/
+Scientist	/home/user/1o57/badge/dc22_badge_human.spin	/^Scientist   byte      76,81,84,89,86,70,32,82,75,66,32,83,78,90,32,83,81,87,83,85,32,87,82,65,32,73,77,82,66,32,67,70,72,82,32,90,65,65,65,65,32,73,89,77,87,90,32,80,32,69,65,74,81,86,68,32,89,79,84,80,32,76,71,65,87,32,89,75,90,76,13,0$/
+TAB	/home/user/1o57/badge/dc22_badge_human.spin	/^#1, HOME, GOTOXY, #8, BKSP, TAB, LF, CLREOL, CLRDN, CR$/
+TX1	/home/user/1o57/badge/dc22_badge_human.spin	/^TX1    = 30$/
+T_BAUD	/home/user/1o57/badge/dc22_badge_human.spin	/^T_BAUD   = 57_600  $/
+Test3	/home/user/1o57/badge/dc22_badge_human.spin	/^Test3       byte      "ZGJG MTM LLPN C NTER MPMH TW",CR,0$/
+Test4	/home/user/1o57/badge/dc22_badge_human.spin	/^Test4       byte      "DID YOU REALLY THINK THAT IT WOULD BE SO EASY? Really?  Just running strings?",0$/
+US_001	/home/user/1o57/badge/dc22_badge_human.spin	/^US_001   = CLK_FREQ / 1_000_000$/
+XT1_P16	/home/user/1o57/badge/dc22_badge_human.spin	/^XT1_P16  = %0_1_1_01_111$/
+XT1_PL1	/home/user/1o57/badge/dc22_badge_human.spin	/^XT1_PL1  = %0_1_1_01_011$/
+XT1_PL2	/home/user/1o57/badge/dc22_badge_human.spin	/^XT1_PL2  = %0_1_1_01_100$/
+XT1_PL4	/home/user/1o57/badge/dc22_badge_human.spin	/^XT1_PL4  = %0_1_1_01_101$/
+XT1_PL8	/home/user/1o57/badge/dc22_badge_human.spin	/^XT1_PL8  = %0_1_1_01_110$/
+Z	/home/user/1o57/badge/dc22_badge_human.spin	/^Z           byte      (@Z_X - @Z) / 2 + 1$/
+Z_X	/home/user/1o57/badge/dc22_badge_human.spin	/^Z_X         byte      %11000000,  75$/
+_clkmode	/home/user/1o57/badge/dc22_badge_human.spin	/^_clkmode = xtal1 + pll16x$/
+_xinfreq	/home/user/1o57/badge/dc22_badge_human.spin	/^_xinfreq = 5_000_000$/
+anicog	/home/user/1o57/badge/dc22_badge_human.spin	/^long  anicog$/
+anistack	/home/user/1o57/badge/dc22_badge_human.spin	/^long  anistack[32]$/
+high	/home/user/1o57/badge/dc22_badge_human.spin	/^pub high(pin)$/
+input	/home/user/1o57/badge/dc22_badge_human.spin	/^pub input(pin)$/
+low	/home/user/1o57/badge/dc22_badge_human.spin	/^pub low(pin)$/
+main	/home/user/1o57/badge/dc22_badge_human.spin	/^pub main | idx, last, button, clock$/
+ms001	/home/user/1o57/badge/dc22_badge_human.spin	/^long  ms001$/
+pause	/home/user/1o57/badge/dc22_badge_human.spin	/^pub pause(ms) | t$/
+pulse	/home/user/1o57/badge/dc22_badge_human.spin	/^pri pulse | p_leds$/
+pulse_out	/home/user/1o57/badge/dc22_badge_human.spin	/^pub pulse_out(pin, us) | state$/
+read_pads	/home/user/1o57/badge/dc22_badge_human.spin	/^pub read_pads$/
+run_animation	/home/user/1o57/badge/dc22_badge_human.spin	/^pri run_animation(p_table, cycles) | p_leds$/
+set_freq	/home/user/1o57/badge/dc22_badge_human.spin	/^pub set_freq(ctrx, px, fx)$/
+set_leds	/home/user/1o57/badge/dc22_badge_human.spin	/^pub set_leds(pattern)$/
+set_speed	/home/user/1o57/badge/dc22_badge_human.spin	/^pub set_speed(mhz)$/
+setup	/home/user/1o57/badge/dc22_badge_human.spin	/^pub setup$/
+start_animation	/home/user/1o57/badge/dc22_badge_human.spin	/^pri start_animation(p_table, cycles)$/
+stop_animation	/home/user/1o57/badge/dc22_badge_human.spin	/^pri stop_animation$/
+toggle	/home/user/1o57/badge/dc22_badge_human.spin	/^pub toggle(pin)$/
+us001	/home/user/1o57/badge/dc22_badge_human.spin	/^long  us001$/

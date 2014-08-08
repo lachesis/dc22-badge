@@ -1,4 +1,4 @@
-'' =================================================================================================
+ '' =================================================================================================
 ''
 ''   File....... dc22_badge_human.spin
 '' 
@@ -115,7 +115,6 @@ obj
  
 
 var
-
   long  ms001                                                   ' system ticks per millisecond
   long  us001                                                   ' system ticks per microsecond
 
@@ -126,18 +125,18 @@ pub main | idx, last, button, clock
 
   term.tx(CLS)                                                  ' clear the terminal
   
-  repeat
-    irtx.tx(5, 20, 1)
-    case irrx.rxcheck
-      -1:
-        term.str(String("No Data"))
-        term.tx(CR)
-      other:
-        idx := irrx.rx
-        term.dec(idx)
-        term.tx(CR)
-        irrx.enable
-    pause(1024)
+  'irtx.tx(5, 20, 1)
+  'repeat
+  '  case irrx.rxcheck
+  '    -1:
+  '      term.str(String("No Data"))
+  '      term.tx(CR)
+  '    other:
+  '      idx := irrx.rx
+  '      term.dec(idx)
+  '      term.tx(CR)
+  '      irrx.enable
+  '  pause(1024)
 
   repeat until (read_pads <> %0000)                             ' wait for a pad press
     idx := (prng.random >> 1) // 13
@@ -227,7 +226,11 @@ pub main | idx, last, button, clock
         until (button == %1110)
         set_leds(%0000000)
         last := button
- 
+        
+      %0010:
+        irtx.tx(56354, 20, 1)
+        pause(250)
+
 pub setup
 
 '' Setup badge IO and objects
