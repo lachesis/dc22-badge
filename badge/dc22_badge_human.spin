@@ -128,7 +128,15 @@ pub main | idx, last, button, clock
   
   repeat
     irtx.tx(5, 12, 2)
-    pause(250)
+    case irrx.rxcheck
+      -1:
+        term.str(String("No Data"))
+        term.tx(CR)
+      other:
+        'idx := irrx
+        term.caesar(@Greets)
+        term.tx(CR)
+    pause(1024)
 
   repeat until (read_pads <> %0000)                             ' wait for a pad press
     idx := (prng.random >> 1) // 13
@@ -232,8 +240,8 @@ pub setup
 
   prng.seed(cnt << 2, cnt, $1057, -cnt, cnt ~> 2)               ' seed prng (random #s)
   
-  irtx.start(IR_OUT, 1)
-  'irrx.start(DIRA[IR_IN..IR_IN])
+  irtx.start(IR_OUT, 1_000_000 * 2_160)
+  irrx.start(IR_IN)
 
 con
 
