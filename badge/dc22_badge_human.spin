@@ -133,9 +133,10 @@ pub main | idx, last, button, clock
         term.str(String("No Data"))
         term.tx(CR)
       other:
-        'idx := irrx
-        term.caesar(@Greets)
+        idx := irrx.rx
+        term.dec(idx)
         term.tx(CR)
+        irrx.enable
     pause(1024)
 
   repeat until (read_pads <> %0000)                             ' wait for a pad press
@@ -242,6 +243,7 @@ pub setup
   
   irtx.start(IR_OUT, IR_FREQ)
   irrx.start(IR_IN)
+  irrx.enable
 
 con
 
