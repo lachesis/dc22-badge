@@ -120,100 +120,57 @@ var
   long  us001                                                   ' system ticks per microsecond
 
 
-pub main | idx, last, button, clock
+pub main | idx, last, button, lock
            
   setup                                                         ' setup badge io and objects
+  lock := 0
 
   term.tx(CLS)                                                  ' clear the terminal
-
-  repeat until (read_pads <> %0000)                             ' wait for a pad press
-    idx := (prng.random >> 1) // 13
-    repeat (idx << 1)
-      term.tx(" ")
-    idx := (prng.random >> 1) // 13  
-    term.caesar(@@Commands[idx])
-    pause(250)
-
-  term.tx(CLS) 
-  
-  term.caesar(@Greets)
-  term.tx(CR)
-  
-  term.otp(@Test3, @Test4)
-  term.tx(CR)
 
   last := -1                                                    ' any button to start
   
   repeat                                                        
     repeat
-      button := read_pads                                       ' wait for input
-    until ((button <> %0000) and (button <> last))              ' must be new
-    last := button                                              ' save for next check
-    
-    case button
-      %0001:
-        start_animation(@Cylon, 0)                              ' start animation
-        term.caesar(@Detective)                                 ' display crypto string
-        pause(250)                                              ' allow clean button release
-     
-      %0101:
-        start_animation(@Chaser, 0)
-        term.otp(@Scientist, @Driver)
-        pause(250)
-      
-      %0111:     
-        start_animation(@Police, 0)
-        term.caesar(@Diver)
-        pause(250)
-        
-      %1000:   
-        start_animation(@InOut, 0)
-        term.otp(@Politician, @Football)
-        pause(250)
-      
-      %1001:
+      button := read_pads        
+    until ((button <> %0000) and (button <> last) and ((lock == 0) or (button == %1001)))
+    last := button
+          
+    case button           
+      %1000: {stop}
         stop_animation
-        term.otp(@RayNelson, @Mystery)
+        pause(250)
+      
+      %1001: {lock}
+        lock := 1 - lock {we haven't looked at the docs yet!}
+        set_leds(%11111111)
+        pause(125)
+        set_leds(%00000000)
+        pause(125)
+        if lock == 0
+          set_leds(%11111111)
+          pause(125)
+          set_leds(%00000000)
+          pause(125)
         repeat
-            button := read_pads
-        until (button <> last)
+          button := read_pads
+        until (button <> %1001)
         last := button
-        repeat
-            button := read_pads
-        until (button == %1001)
-        last := button
-        
+
       %0100:
         start_animation(@Z, 0)
         pause(250)
         
+      %0101:
+        start_animation(@Chaser, 0)
+        pause(250)
+        
       %1111:
-        stop_animation
-        clock := %00000000
-        repeat
-            button := read_pads
-        until (button == %0000)
-        repeat
-            set_leds(clock)
-            clock := (clock + 1) // 256
-            pause(1000)
-            button := read_pads
-        until (button == %1111)
-        set_leds(%0000000)
-        last := button
+        start_animation_custom(1, 500) { clock, 500ms }
+        pause(250)
       
       %1110:
-        stop_animation
-        repeat
-            button := read_pads
-        until (button <> last)
-        repeat
-            set_leds(prng.random)
-            pause(250)
-            button := read_pads
-        until (button == %1110)
-        set_leds(%0000000)
-        last := button
+        start_animation_custom(2, 250) { prng, 250ms }
+        pause(250)
  
 pub setup
 
@@ -306,6 +263,18 @@ pri start_animation(p_table, cycles)
   return anicog                                                 ' return cog used
 
 
+pri start_animation_custom(index, pause_len)
+
+'' Start custom animation in background cog
+'' -- allows LED animation while doing other processes
+
+  stop_animation
+  
+  anicog := cognew(run_animation_custom(index, pause_len), @anistack) + 1  
+
+  return anicog                                                 ' return cog used
+
+
 pri stop_animation
 
 '' Stop animation if currently running
@@ -314,6 +283,23 @@ pri stop_animation
     cogstop(anicog - 1)                                         ' stop the cog
     anicog := 0                                                 ' mark stopped 
 
+pri run_animation_custom(index, pause_len) | clock
+'' Run animation
+  case index
+    1: {clock}
+      clock := %00000000
+      repeat
+        set_leds(clock)
+        clock := (clock + 1) // 256
+        pause(pause_len)
+      
+    2: {prng}
+      repeat
+        set_leds(prng.random)
+        pause(pause_len)
+
+  anicog := 0                                                   ' mark stopped
+  cogstop(cogid)                                                ' stop this cog
 
 pri run_animation(p_table, cycles) | p_leds
 
