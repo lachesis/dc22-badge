@@ -240,7 +240,7 @@ pub setup
 
   prng.seed(cnt << 2, cnt, $1057, -cnt, cnt ~> 2)               ' seed prng (random #s)
   
-  irtx.start(IR_OUT, 1_000_000 * 2_160)
+  irtx.start(IR_OUT, 463)
   irrx.start(IR_IN)
 
 con
