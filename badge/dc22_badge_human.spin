@@ -127,7 +127,7 @@ pub main | idx, last, button, clock
   term.tx(CLS)                                                  ' clear the terminal
   
   repeat
-    irtx.tx(5, 12, 2)
+    irtx.tx(5, 20, 1)
     case irrx.rxcheck
       -1:
         term.str(String("No Data"))
@@ -240,7 +240,7 @@ pub setup
 
   prng.seed(cnt << 2, cnt, $1057, -cnt, cnt ~> 2)               ' seed prng (random #s)
   
-  irtx.start(IR_OUT, 463)
+  irtx.start(IR_OUT, IR_FREQ)
   irrx.start(IR_IN)
 
 con
